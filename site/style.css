@@ -1,0 +1,13 @@
+body {
+    background-color: #000000;
+    color: #00FF00;
+    font-family: 'Courier New', monospace;
+}
+
+.marquee p {
+    animation: marquee 10s linear infinite;
+}
+
+@media (max-width: 768px) {
+    /* Responsive design adjustments */
+}
